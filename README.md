@@ -6,10 +6,13 @@
 3. Run
 4. Get next message in logs
 
+## Example of usage
 ```
+java -jar example/cassandra-migration-file.jar
 [main] INFO org.cognitor.cassandra.migration.MigrationRepository - Found 0 migration scripts
 ```
 
-## Examples
-java -jar example/cassandra-migration-file.jar
+```
 java -jar example/cassandra-migration-jar.jar
+[main] INFO org.cognitor.cassandra.migration.MigrationRepository - Found 2 migration scripts
+```
